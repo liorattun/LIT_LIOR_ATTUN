@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pl"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.lioratton.lit_lior_attun.Haomnam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  האומנם עוד יבואו ימים לאה גולדברג "
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    app:srcCompat="@drawable/lolo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="211dp"
+                    android:layout_height="188dp"
+                    app:srcCompat="@drawable/leaa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="35dp"
+                android:layout_height="wrap_content"
+                android:text="סיכום השיר" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="השיר נכתב בשנת 1943, והיה בו משום תגובה לנוראות מלחמת העולם השנייה, כאשר ממדי זוועת השואה היו ידועים כבר ליושבים בישראל. השיר עורר הדים רבים בציבור, נוכח ייסורי המצפון, המושתקים בו, של מי שנותרו בחיים. לאה גולדברג ביקשה לבטא את זכות החיים הבסיסית של אלה שהמזל שפר עליהם והם לא היו בין קורבנות התופת שהשתוללה באירופה. תיאורי הטבע המרובים בשיר ממחישים את ההנאה התמימה כמפלט מתלאות הקיום. בטבע ניתן למצוא מרגוע וחושניות ובחסותו אפשר גם להשלים עם הבדידות שאין מנוס ממנ
+
+בית א´ – השיר נפתח בשאלה האומנם עוד יבואו ימים בסליחה ובחסד- בשאלה זאת בולט הספק באשר לאפשרות קיום חיים נקיים מאשמה, כאשר משהו קשה מעיב עליהם. החזרה הכפולה על המילה ותלכי, מעצימה את הרצון הראשוני כל-כך של החיים – פשוט ללכת. ההליכה בשדה בתוספת הדימוי כהלך התם, מלמדת כי אין כאן שאיפות גדולות ולבטח אין כאן כוונות נסתרות. המשוררת מייחלת בסך הכול לחיים פשוטים של רוגע ושלווה. השימוש האוקסימורוני במלים ותמתק דקירתם מלמד על נכונות המשוררת להיות מסופקת מחייה גם אם יש בהם דקירה, כלומר משהו כואב. היא מבקשת לאהוב את החיים על אף הכאב הכרוך בהם, ובמידת האפשר אפילו ללמוד ליהנות מהכאב הזה, אולי בזכות ההתגברות עליו.
+
+            בית ב´ – הבית השני מרחיב את חוויית החיים על רקע ההליכה בטבע. כאן נדרשת המשוררת לגשם היורד על גופה. אף שמדובר בעדת טיפותיו הדופקת, היא מצליחה ללכת בשדה ולהתעטף בשקט, המדומה כאן לאור בשולי הענן. נראה כי גם כאן יש משהו המעיב על החיים (ענן של קדרות), אך בכוחה של המשוררת להתגבר על כך.
+
+          בית ג´ – בבית זה בולטים ביטויים המדגישים את ממשיות החיים. השימוש במגוון חושים (ריח, ראייה, מישוש) משרה אווירה של ביטחון המתחזקת גם בעזרת התיאור האסתטי של התלם, השמש והשלולית. החזרה המשולשת על המילה ומותר – מדגישה אמנם את הוויית הקיום על צדדיה הקסומים, אך גם עשויה להכיל בתוכה את הרעיון שאין זה מובן מאליו שמותר לאהוב, כי אם הדבר היה ברור, לא היה צורך לחזור ולהדגיש אותו. כאן מתברר דווקא שאולי יש בחיים הללו דבר כלשהו, שהוא מאוד לא פשוט וחי, אך למרות זאת אין לחוש אשמה, ומותר למצות את החיים, במובן של לאהוב ללא ייסורי מצפון.
+
+בית ד´ – בבית האחרון נחשף הקיום המפחיד, המאיים להחריב את החיים, ובתוכו המשוררת המבקשת להמשיך לחיות את חייה הפשוטים.
+
+           המילה לבדך מדגישה את המחיר שיש לשלם בעבור המציאות הנוראה. הברירה לחיות היא אישית, אולי אפילו אגואיסטית, והיא עלולה לעורר ביקורת מצד החברה. אך למרות זאת, קוראת המשוררת לבחירה בחיים, גם אם זו בחירה שיש בה כניעה מפני שזו שנובעת מתוך יושר-לב וצניעות, וכל עניינה ברצון לשמור על האנושיות במשמעותה הפשוטה והבסיסית ביותר.
+
+            מהבית הסוגר את השיר ניתן להסיק כי גם במציאות עקובה מדם של מלחמה משתוללת, יש מקום להתכנסות האדם בעצמו ולהתמזגותו הבריאה עם הטבע, מתוך תפישת עולם לפיה אין להטיל ספק בזכות המובנת מאליה – לחיות." />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:onClick="lll"
+                android:layout_height="wrap_content"
+                android:text="חזור" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

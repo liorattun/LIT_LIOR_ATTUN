@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">LIT_LIOR_ATTUN</string>
+
+    <string name="a1">1</string>
+    <string-array name="q1">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a2">2</string>
+    <string-array name="q2">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a3">1</string>
+    <string-array name="q3">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a4">0</string>
+    <string-array name="q4">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a5">2</string>
+    <string-array name="q5">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a6">1</string>
+    <string-array name="q6">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a7">1</string>
+    <string-array name="q7">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a8">0</string>
+    <string-array name="q8">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a9">1</string>
+    <string-array name="q9">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+    <string name="a10">2</string>
+    <string-array name="q10">
+        <item>אבג</item>
+        <item>דהו</item>
+        <item>זחט</item>
+    </string-array>
+
+</resources>

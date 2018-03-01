@@ -1,0 +1,89 @@
+package com.example.lioratton.lit_lior_attun;
+
+import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Color;
+import android.support.annotation.IntegerRes;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+public class Test extends AppCompatActivity {
+
+    TextView question;
+    int qnum;
+    int points;
+    Spinner answers;
+    boolean[] correct;
+
+    ArrayAdapter<CharSequence> adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_test);
+
+        question=(TextView)findViewById(R.id.question);
+        answers=(Spinner) findViewById(R.id.answers);
+
+        Intent gt=getIntent();
+        points=gt.getIntExtra("points", 0);
+        qnum=gt.getIntExtra("qnum", 1);
+        correct=gt.getBooleanArrayExtra("correct");
+        if (correct==null)
+            correct=new boolean[10];
+
+        String packageName = getPackageName();
+        int resId = getResources().getIdentifier("q"+qnum, "array", packageName);
+
+        adapter=ArrayAdapter.createFromResource(this, resId, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        answers.setAdapter(adapter);
+
+        answers.setBackgroundColor(Color.WHITE);
+
+        String q="אלברט המלך";
+
+        switch (qnum)
+        {
+            case 1: q="מהו המסר של השיר?"; break;
+            case 2: q="מהו המסר של השיר?"; break;
+            case 3: q="מהו המסר של השיר?"; break;
+            case 4: q="מהו המסר של השיר?"; break;
+            case 5: q="מהו המסר של השיר?"; break;
+            case 6: q="מהו המסר של השיר?"; break;
+            case 7: q="מהו המסר של השיר?"; break;
+            case 8: q="מהו המסר של השיר?"; break;
+            case 9: q="מהו המסר של השיר?"; break;
+            case 10: q="מהו המסר של השיר?"; break;
+        }
+        question.setText(q);
+    }
+
+    public void next(View view) {
+        //Check if the answer is correct.
+        String packageName = getPackageName();
+        int resId = getResources().getIdentifier("a"+qnum, "string", packageName);
+        int corr= Integer.parseInt(getString(resId));
+        resId = getResources().getIdentifier("q"+qnum, "array", packageName);
+        String ans=getResources().getStringArray(resId)[corr];
+        if (ans.equals(answers.getSelectedItem())) {
+            points += 10;
+            correct[qnum-1]=true;
+        }
+
+        Intent t=null;
+        if (qnum==10)
+            t=new Intent(this, Result.class);
+        else
+            t=new Intent(this, Test.class);
+        t.putExtra("qnum", qnum+1);
+        t.putExtra("points", points);
+        t.putExtra("correct", correct);
+
+        startActivity(t);
+    }
+}
