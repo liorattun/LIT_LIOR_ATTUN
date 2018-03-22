@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pl"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.lioratton.lit_lior_attun.rachel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="רק על עצמי
+רחל"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="144dp"
+                    android:layout_height="217dp"
+                    app:srcCompat="@drawable/llo"
+                    android:layout_weight="0.59" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="217dp"
+                    android:layout_height="295dp"
+                    app:srcCompat="@drawable/rachel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:textSize="35dp"
+                    android:layout_height="wrap_content"
+                    android:text="סיכום השיר" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="wrap_content"
+                    android:text="השיר רק על עצמי של רחל נכתב בשנת 1930 בתל אביב. רחל חלתה בשחפת והייתה מאוד בודדה, סגורה בחדרה. השיר נכתב שנה לפני מותה כאשר סופה היה ברור וידוע
+
+בית ראשון – רחל מדמה את עצמה לנמלה ואת עולמה לצר כעולם הנמלה מפני שהיא חיה בגבולות מצומצמים ולא ידעה מה קורה בחוץ. רחל הייתה מסוגרת פיזית בחדר אך גם סגורה בתוך בעיותיה הפרטיות. היא הרגישה שהיא אינה יכולה להתפנות לדברים שהייתה רוצה לעסוק בהם.כמו שמסע נמלה הוא קשה, ומשאה כבד, כך גם חייה של רחל. כמו שאין פרופורציה בין הנמלה למשאה, כך גם אין פרופורציה בין רחל הרגישה לכובד הבעיות שחוותה – הוא מעבר למה שהיא יכולה לשאת.
+
+בית שני – רחל ממשיכה בדימוי הנמלה. הבית השני מתאר את הדרך לצמרת. הדרך הזו היא ארוכה ועל כן גם השורה הראשונה בבית זה היא ארוכה מהשאר. דרך המשוררת אל היעד כרוכה בסבל נפשי אולם בסופו של דבר היא מרגישה שהיא לא הגיעה ליעד שלה והשאיפות שלה לא מתממשות. יד ענקים זדונה ובוטחת – לנמלה מכשול פיזי שהוא יד אדם, אשר יכולה להרוג אותה מתוך זדון, מתוך כוונה. הסיכוי שהנמלה תגיע ליעדה הוא קלוש. רחל מרגישה שהגורל מתנכל לה וגורם לה לבעיות קשות ומונע ממנה להגיע ליעדה. גם רחל וגם הנמלה תלויות בגורמים חיצוניים אשר מחבלים בתוכניות שלה למימוש עצמי.
+
+בית שלישי – סיכום חייה של רחל. רחל יודעת בבירור שהיא עומדת בפני מותה וטוענת שיש לה פחד מיד ענקים, כוח חיצוני שאין לה שליטה עליו שעתיד להרוס את חייה. התחושה הזו ליוותה אותה תמיד וכיום היא יודעת שיש לה הצדקה. מעין נבואה שמגשימה את עצמה.
+
+הבית מסתיים בשתי שאלות רטוריות ומשמעותן היא תלונה, המשוררת מתלוננת על מר גורלה שלא מאפשר לה להגיע ל חופי הפלא שהם חופי הכנרת האהובים עליה (היא עברה לתל אביב מפאת מחלתה) ולאורות הרחוקים – המטרות שכל אדם מציב לעצמו ומשתוקק להגיע אליהם.
+" />
+                />
+            </LinearLayout>
+            <![CDATA[
+
+            />
+        ]]>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

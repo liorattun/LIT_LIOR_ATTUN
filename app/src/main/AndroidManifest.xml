@@ -21,7 +21,8 @@
         <activity android:name=".Adama" />
         <activity android:name=".Test" />
         <activity android:name=".Result" />
-        <activity android:name=".Credits"></activity>
+        <activity android:name=".Credits" />
+        <activity android:name=".rachel"></activity>
     </application>
 
 </manifest>

@@ -49,7 +49,7 @@ public class Test extends AppCompatActivity {
 
         switch (qnum)
         {
-            case 1: q="מהו המסר של השיר?"; break;
+            case 1: q="מה הפירוש המטאפורי של השורה רְאִי אֲדָמָה, כִּי הָיִינוּ בַּזְבְּזָנִים עַד מְאֹד";break;
             case 2: q="מהו המסר של השיר?"; break;
             case 3: q="מהו המסר של השיר?"; break;
             case 4: q="מהו המסר של השיר?"; break;

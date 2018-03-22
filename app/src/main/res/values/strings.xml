@@ -3,9 +3,9 @@
 
     <string name="a1">1</string>
     <string-array name="q1">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>האדמה מתלוננת על בזבוז חיי אדם</item>
+        <item>קוננות על בזבוז חיי צעירים שנפלו למען הגנת המולדת</item>
+        <item>המשורר מקונן על בזבוז שנעשה בעבודת האדמה</item>
     </string-array>
 
     <string name="a2">2</string>

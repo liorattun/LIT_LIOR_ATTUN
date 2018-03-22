@@ -50,4 +50,9 @@ public class Main extends AppCompatActivity {
 
         return true;
     }
+
+    public void press3(View view) {
+        Intent t=new Intent(this,rachel.class);
+        startActivity(t);
+    }
 }
