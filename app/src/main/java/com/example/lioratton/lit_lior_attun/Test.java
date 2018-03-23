@@ -3,7 +3,9 @@ package com.example.lioratton.lit_lior_attun;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.IntegerRes;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +27,8 @@ public class Test extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
+        ActionBar actionBar= getSupportActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.rgb(115,39,178)));
 
         question=(TextView)findViewById(R.id.question);
         answers=(Spinner) findViewById(R.id.answers);
@@ -49,16 +53,16 @@ public class Test extends AppCompatActivity {
 
         switch (qnum)
         {
-            case 1: q="מה הפירוש המטאפורי של השורה רְאִי אֲדָמָה, כִּי הָיִינוּ בַּזְבְּזָנִים עַד מְאֹד";break;
-            case 2: q="מהו המסר של השיר?"; break;
-            case 3: q="מהו המסר של השיר?"; break;
-            case 4: q="מהו המסר של השיר?"; break;
-            case 5: q="מהו המסר של השיר?"; break;
-            case 6: q="מהו המסר של השיר?"; break;
-            case 7: q="מהו המסר של השיר?"; break;
-            case 8: q="מהו המסר של השיר?"; break;
-            case 9: q="מהו המסר של השיר?"; break;
-            case 10: q="מהו המסר של השיר?"; break;
+            case 1: q="מה הפירוש המטאפורי של השורה רְאִי אֲדָמָה, כִּי הָיִינוּ בַּזְבְּזָנִים עַד מְאֹד?";break;
+            case 2: q="מהם האורות הרחוקים עליהם מדברת רחל בשיר רק על עצמי?"; break;
+            case 3: q="מדוע משתמשת המשוררת במילים-ותמתק דקיתם-איך דקירה יכולה להיות מתוקה?"; break;
+            case 4: q="מה משמעות הביטוי-ארג יומם עוד שתי-בשיר ראי אדמה?"; break;
+            case 5: q="למה מתכוונת רחל במשפטה-גם משאי עמסתי כמוה רב וכבד מכתפי הדלה-?"; break;
+            case 6: q="מדוע נכתב השיר-האומנם עוד יבואו ימים-?"; break;
+            case 7: q="מהו הנמשל בשורה הזו בשיר ראי אדמה-מצניע חן עם יפה קלח,קטורת כוסו נכונה-?"; break;
+            case 8: q="למה מתכוונת רחל בדימוייה-יד ענקים זדונה ובוטחת-?"; break;
+            case 9: q="מהי לבסוף תקוותו של טשרניחובסקי בשיר ראי אדמה?"; break;
+            case 10: q="מהי משמעות החזרה על המילה-ומותר-בשיר האומנם עוד יבואו ימים?"; break;
         }
         question.setText(q);
     }

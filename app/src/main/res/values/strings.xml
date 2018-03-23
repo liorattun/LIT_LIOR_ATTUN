@@ -10,65 +10,65 @@
 
     <string name="a2">2</string>
     <string-array name="q2">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>אורות הנמצאים במקום האהוב עליה-הכנרת</item>
+        <item>הכוונה באורות רחוקים לכוכבים שבשמיים</item>
+        <item>המטרות והיעדים שכל אדם מציב לעצמו</item>
     </string-array>
 
     <string name="a3">1</string>
     <string-array name="q3">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>דקירה לא יכולה להיות מתוקה ומכאן כאבה</item>
+        <item>רצון המשוררת- להיות מסופקת מחייה גם אם יש בהם כאב</item>
+        <item>אין כלל משמעות למילים אלו בשיר</item>
     </string-array>
 
     <string name="a4">0</string>
     <string-array name="q4">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>השתי עוד לא הושלם לערב-חייהם נקטעו באמצע</item>
+        <item>המשפט מסמל תקווה לחיים טובים יותר</item>
+        <item>הצער על כך שהפרחים לא פרחו</item>
     </string-array>
 
     <string name="a5">2</string>
     <string-array name="q5">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>משאה של רחל כבד יותר ממשא הנמלה</item>
+        <item>הנמלה מרימה משאות כבדים כמו רחל</item>
+        <item>כפי שמשאה של הנמלה כבד כך צרותיה היו כבדות ממנה</item>
     </string-array>
 
     <string name="a6">1</string>
     <string-array name="q6">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>מפני שרצו להיות באירופה</item>
+        <item>נוכח יסורי המצפון שחשו יושבי אי בזמן מלחה"ע ה2</item>
+        <item>בכדי לתאר את זוועות השואה</item>
     </string-array>
 
     <string name="a7">1</string>
     <string-array name="q7">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>לאנשים בעולם</item>
+        <item>לסוגי אנשים-מצניע חן(מופנים),יפה הקלח(מוחצנים)..</item>
+        <item>לסוגי פרחים שונים</item>
     </string-array>
 
     <string name="a8">0</string>
     <string-array name="q8">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>לגורל המתנכל לה ומפריע לה להגשים את יעודה</item>
+        <item>ליד המפריעה לה בדרכה</item>
+        <item>לחלומותיה שלא הוגשמו</item>
     </string-array>
 
     <string name="a9">1</string>
     <string-array name="q9">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>המשורר לא מצליח למצוא תקווה כלל</item>
+        <item>שמותם של הבנים יחזק את החיים ולא יהיה לשווא</item>
+        <item>לא ניתן לדעת מהי תקוותו</item>
     </string-array>
 
     <string name="a10">2</string>
     <string-array name="q10">
-        <item>אבג</item>
-        <item>דהו</item>
-        <item>זחט</item>
+        <item>אין לחזרה כלל משמעות</item>
+        <item>הפוך על הפוך:יש לחוש אשמה </item>
+        <item>הדגשת הרעיון שמותר להמשיך לאהוב ולחיות ללא אשמה</item>
     </string-array>
 
 </resources>
